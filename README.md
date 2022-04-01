@@ -1,5 +1,3 @@
-# -
-一款社交小程序 包含发布动态 点赞 收藏 转发 每日签到 金币抽奖 等级系统 盲盒交友 匿名聊天等功能 项目使用uniapp+ts搭建
 # 遇见uniapp
 
 #### 介绍
@@ -26,5 +24,7 @@ uniapp+ts   hx特定版本运行(3.2.15.20211120)亲测可用 其他版本会报
 
 
 #### 小程序预览
-
-1. ![Image text](https://songhan.top/files/applets.jpg)
+ ![Image text](https://songhan.top/files/applets.jpg)
+#### 大佬打赏
+![Image text](https://songhan.top/pay.jpg)
+####  开发不易点个star吧
