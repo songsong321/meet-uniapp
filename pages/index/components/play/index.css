@@ -1,0 +1,257 @@
+page {
+        margin: 0;
+        padding: 0;
+        height: 800rpx;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FCE69D;
+		background-size: 100% 100%;
+		transform: scale(0.9);
+        }
+        .ferris-wheel {
+        position: relative;
+        width: 502rpx;
+        height: 502rpx;
+	
+        }
+        .ferris-wheel .wheel-wrap {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        animation: wheel_rotate 30s infinite linear;
+        }
+        .wheels {
+        position: absolute;
+        border: 5rpx solid pink;
+        width: 502rpx;
+        height: 502rpx;
+        border-radius: 50%;
+        box-sizing: border-box;
+        }
+        .wheels:before {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        top: 50%;
+        width: 408rpx;
+        height: 408rpx;
+        margin-left: -204rpx;
+        margin-top: -204rpx;
+        border: 5rpx solid pink;
+        border-radius: 50%;
+        box-sizing: border-box;
+        }
+        .wheels:after {
+        content: '';
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        top: 50%;
+        width: 90rpx;
+        height: 90rpx;
+        margin-left: -49rpx;
+        margin-top: -49rpx;
+        background-color: pink;
+        border: 4rpx solid pink;
+        border-radius: 50%;
+        box-sizing: border-box;
+        z-index:100 ;
+        }
+        .wheels text {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        margin-top: -1rpx;
+        border-bottom: 5rpx solid pink;
+		
+        }
+        .wheels text:nth-child(1) {
+        transform: rotate(0deg);
+        }
+        .wheels text:nth-child(2) {
+        transform: rotate(22.5deg);
+        }
+        .wheels text:nth-child(3) {
+        transform: rotate(45deg);
+        }
+        .wheels text:nth-child(4) {
+        transform: rotate(67.5deg);
+        }
+        .wheels text:nth-child(5) {
+        transform: rotate(90deg);
+        }
+        .wheels text:nth-child(6) {
+        transform: rotate(112.5deg);
+        }
+        .wheels text:nth-child(7) {
+        transform: rotate(135deg);
+        }
+        .wheels text:nth-child(8) {
+        transform: rotate(157.5deg);
+        }
+        @keyframes wheel_rotate {
+        0% {
+        transform: rotate(0deg);
+        }
+        100% {
+        transform: rotate(360deg);
+        }
+        }
+        .buckets {
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        }
+        .buckets view {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80rpx;
+        height: 70rpx;
+        border-radius: 05rpx;
+        transform-origin: 50% 5%;
+        border:1rpx solid black;
+        animation: bucket_rotate 30s infinite linear;
+        }
+        .buckets view:before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: 15rpx;
+        height: 15rpx;
+        margin: -15rpx 0 0 -3rpx;
+        background-color: pink;
+        border-top-right-radius: 10rpx;
+        border-top-left-radius: 10rpx;
+        }
+        .buckets view .view {
+        position: absolute;
+        
+        width: 70rpx;
+        height: 55rpx;
+        background-color: #c9dfdd;
+        border-left: 1rpx solid black;
+        border-top: 1rpx solid black;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		margin: auto;
+		z-index: 999999;
+        }
+        .buckets view .view:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        height: 2rpx;
+        background-color: rgba(0,0,0,.2);
+        }
+        @keyframes bucket_rotate {
+        0% {
+        transform: rotate(0deg);
+        }
+        100% {
+        transform: rotate(-360deg);
+        }
+        }
+        .buckets view:nth-child(1) {
+        margin: -250rpx 0 0 -30rpx;
+        }
+        .buckets view:nth-child(2) {
+        margin: -231rpx 0 0 70rpx;
+        }
+        .buckets view:nth-child(3) {
+        margin: -178rpx 0 0 150rpx;
+        }
+        .buckets view:nth-child(4) {
+        margin: -95rpx 0 0 200rpx;
+        }
+        .buckets view:nth-child(5) {
+        margin:-2rpx 0 0 220rpx;
+        }
+        .buckets view:nth-child(6) {
+        margin: 95rpx 0 0 203rpx;
+        }
+        .buckets view:nth-child(7) {
+        margin: 174rpx 0 0 145rpx;
+        }
+        .buckets view:nth-child(8) {
+        margin: 230rpx 0 0 67rpx;
+        }
+        .buckets view:nth-child(9) {
+        margin: 250rpx 0 0 -30rpx;
+        }
+        .buckets view:nth-child(10) {
+        margin: 220rpx 0 0 -120rpx;
+        }
+        .buckets view:nth-child(11) {
+        margin: 175rpx 0 0 -210rpx;
+        }
+        .buckets view:nth-child(12) {
+        margin: 90rpx 0 0 -260rpx;
+        }
+        .buckets view:nth-child(13) {
+        margin: -4rpx 0 0 -280rpx;
+        }
+        .buckets view:nth-child(14) {
+        margin: -100rpx 0 0 -260rpx;
+        }
+        .buckets view:nth-child(15) {
+        margin: -180rpx 0 0 -210rpx;
+        }
+        .buckets view:nth-child(16) {
+        margin: -230rpx 0 0 -130rpx;
+        }
+        .buckets view:nth-child(odd) {
+        background-color:#1E9A9B;
+        }
+        .buckets view:nth-child(even) {
+        background-color: #E1020F;
+        }
+        .stand {
+        position: absolute;
+        z-index: 10;
+        left:49%;
+        top: 49%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 50%;
+
+        transform: translate(-50%, -50%);
+        }
+        .stand:before,
+        .stand:after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        top: 10rpx;
+        width: 400rpx;
+        height: 10rpx;
+        background-color: pink;
+        z-index: -100;
+
+        }
+        .stand:before {
+        right: 50%;
+        transform-origin: 100% 50%;
+        transform: rotate(-77deg);
+        }
+        .stand:after {
+        left: 50%;
+        transform-origin: 0% 50%;
+        transform: rotate(77deg);
+        }

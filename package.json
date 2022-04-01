@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "typescript": "^4.4.3",
+    "uview-ui": "^1.8.5",
+    "vue-property-decorator": "^9.1.2"
+  }
+}

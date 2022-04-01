@@ -1,0 +1,197 @@
+{
+    "easycom": {
+        "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+    },
+    "pages": [
+  
+        {
+            "path": "tabbar/pages/index",
+            "style":{
+                "navigationBarTitleText":"遇见"
+            }
+        },
+        {
+            "path": "tabbar/pages/community",
+            "style":{
+                "navigationBarTitleText":"广场",
+                "enablePullDownRefresh":true
+            }
+        },
+        {
+            "path": "tabbar/pages/message",
+            "style":{
+                "navigationBarTitleText":"消息",
+                "enablePullDownRefresh":true
+            }
+        },
+        {
+            "path": "tabbar/pages/mine",
+            "style":{
+                "navigationBarTitleText":"我的",
+                "enablePullDownRefresh":true
+            }
+        },
+        {
+            "path": "tabbar/pages/components/cardDetail",
+            "style":{
+                "navigationBarTitleText":"动态详情",
+                "enablePullDownRefresh":true
+            }
+        }
+
+    ],
+    "subPackages": [{
+            "root": "pages",
+            "pages": [
+                {
+                    "path": "index/components/barrage/barrage",
+                    "style": {
+                        "navigationBarTitleText": "宇宙聊天室",
+                        "enablePullDownRefresh": false
+                    }
+                },
+                {
+                    "path": "index/components/play/play",
+                    "style": {
+                        "navigationBarTitleText": "摩天轮",
+                        "enablePullDownRefresh": false
+                    }
+                },
+                {
+                    "path": "pages/blindBox/index",
+                    "style": {
+                        "navigationBarTitleText": "盲盒交友",
+                        "enablePullDownRefresh": false
+                    }
+                }
+                
+                
+            ]
+        },
+        {
+            "root": "community",
+            "pages": [
+            ]
+        },
+        {
+            "root": "message",
+            "pages": [
+            {
+                "path": "pages/components/msgChart",
+                "style": {
+                    "navigationBarTitleText": "聊天",
+                    "enablePullDownRefresh": true
+                }
+            },
+            {
+                "path": "pages/focusForMe/index",
+                "style": {
+                    "navigationBarTitleText": "我的粉丝",
+                    "enablePullDownRefresh": true
+                }
+            },
+            {
+                "path": "pages/likeOrLoveMe/index",
+                "style": {
+                    "navigationBarTitleText": "给我的赞",
+                    "enablePullDownRefresh": true
+                }
+            }
+            ]
+        },
+        {
+            "root": "mine",
+            "pages": [
+                {
+                    "path": "pages/info",
+                    "style": {
+                        "navigationBarTitleText": "",
+                        "enablePullDownRefresh": false
+                    }
+
+                }, {
+                    "path": "pages/myRelease/myRelease",
+                    "style": {
+                        "navigationBarTitleText": "我发布的",
+                        "enablePullDownRefresh": true
+                    }
+
+                }, {
+                    "path": "pages/myLike/myLike",
+                    "style": {
+                        "navigationBarTitleText": "我点赞的",
+                        "enablePullDownRefresh": true
+                    }
+
+                }, {
+                    "path": "pages/myLove/myLove",
+                    "style": {
+                        "navigationBarTitleText": "我收藏的",
+                        "enablePullDownRefresh": true
+                    }
+                },
+                {
+                    "path": "pages/edit",
+                    "style": {
+                        "navigationBarTitleText": "个人资料",
+                        "enablePullDownRefresh": false
+                    }
+                },
+                {
+                    "path": "pages/luckyDraw/index",
+                    "style": {
+                        "navigationBarTitleText": "幸运大转盘",
+                        "enablePullDownRefresh": false
+                    }
+                },
+                {
+                    "path": "pages/getCode/index",
+                    "style": {
+                        "navigationBarTitleText": "获取激活码",
+                        "enablePullDownRefresh": false
+                    }
+                }
+            ]
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "blurEffect": "extralight",
+        "backgroundColor": "#FFFFFF",
+        "borderStyle": "white",
+        "fontSize": "12px",
+        "color": "#524e4e",
+        "selectedColor": "#4a6498",
+        "list": [{
+            "current": 0,
+            "pagePath": "tabbar/pages/index",
+            "text": "遇见",
+            "iconPath": "static/MyApplets/img/wifi.png",
+            "selectedIconPath": "static/MyApplets/img/wifi-i.png"
+        }, {
+            "current": 1,
+            "pagePath": "tabbar/pages/community",
+            "text": "星球",
+            "iconPath": "static/MyApplets/img/ground.png",
+            "selectedIconPath": "static/MyApplets/img/ground-i.png"
+        }, {
+            "current": 2,
+            "pagePath": "tabbar/pages/message",
+            "text": "消息",
+            "iconPath": "static/MyApplets/img/message.png",
+            "selectedIconPath": "static/MyApplets/img/message-i.png"
+        }, {
+            "current": 3,
+            "pagePath": "tabbar/pages/mine",
+
+            "text": "我的",
+            "iconPath": "static/MyApplets/img/user.png",
+            "selectedIconPath": "static/MyApplets/img/user-i.png"
+        }]
+    }
+}
