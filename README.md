@@ -27,4 +27,4 @@ uniapp+ts   hx特定版本运行(3.2.15.20211120)亲测可用 其他版本会报
  ![Image text](https://songhan.top/files/applets.jpg)
 #### 大佬打赏
 <img src="https://songhan.top/pay.jpg" width="300" height="400" />
-####  开发不易点个star吧
+ 开发不易点个star吧
