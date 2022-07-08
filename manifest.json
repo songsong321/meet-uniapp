@@ -1,6 +1,6 @@
     {
     "name" : "guard-chart",
-    "appid" : "wx904888b363733f3a",
+    "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -42,7 +42,7 @@
     "quickapp" : {},
     "mp-weixin" : {
         "usingComponents" : true,
-        "appid" : "wx904888b363733f3a",
+        "appid" : "",
         "setting" : {
             "urlCheck" : true,
             "es6" : false
