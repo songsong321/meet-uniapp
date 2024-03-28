@@ -21,7 +21,7 @@ hbuilderx 3.2.12 20111120后的版本启动不了 会报语法错误 3.2.12 2011
 
 1.  本项目图标大部分来自阿里巴巴矢量图标库
 2.  使用插件 https://ext.dcloud.net.cn/plugin?id=5378，https://ext.dcloud.net.cn/plugin?id=5567，https://ext.dcloud.net.cn/plugin?id=6472
-
+#### 有需要前后端源码或需要协助调试请加微信 topAdministrator
 
 #### 小程序预览
  ![Image text](https://songhan.top/files/applets.jpg)
