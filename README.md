@@ -6,7 +6,7 @@
 #### 软件架构
 uniapp+ts   hx特定版本运行(3.2.15.20211120)亲测可用 其他版本会报错
 hbuilderx 3.2.12 20111120后的版本启动不了 会报语法错误 3.2.12 20111120版本亲测可用
-
+接入AI进行智能破冰，使用AI分析个人性格及优势。
 #### 安装教程
 
 1.  npm install
@@ -23,8 +23,4 @@ hbuilderx 3.2.12 20111120后的版本启动不了 会报语法错误 3.2.12 2011
 2.  使用插件 https://ext.dcloud.net.cn/plugin?id=5378，https://ext.dcloud.net.cn/plugin?id=5567，https://ext.dcloud.net.cn/plugin?id=6472
 #### 有需要前后端源码或需要协助调试请加微信 topAdministrator
 
-#### 小程序预览
- ![Image text](https://songhan.top/files/applets.jpg)
-#### 大佬打赏
-<img src="https://songhan.top/pay.jpg" width="300" height="400" />
- 开发不易点个star吧
+
